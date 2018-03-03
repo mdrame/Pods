@@ -7,16 +7,16 @@
 //
 
 import UIKit
-import CoreLocation      // CoreLocation libary that prompt an alert on the screen and ask the user if you could use their current location throught GPS cordinate.....
+import CoreLocation // CoreLocation libary that prompt an alert on the screen and ask the user if you could use their current location throught GPS cordinate.....
 
 
-class ViewController: UIViewController, CLLocationManagerDelegate {
+class ViewController: UIViewController {
     
     
     
     // creating an object that will hold the Location data
     
-    var locationManager = CLLocationManager()
+
     
     
     
@@ -61,6 +61,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     
     
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -71,7 +72,16 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
+    
+    
+    @IBAction func searchCityButton(_ sender: UIButton) {
+        
+        performSegue(withIdentifier: "segue", sender: self)
+        
+    }
+    
 
 }
 
