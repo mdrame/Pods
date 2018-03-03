@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77640F29204A56430044EF19 /* searchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77640F28204A56430044EF19 /* searchVC.swift */; };
 		77AB780A2049DC3600270D49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AB78092049DC3600270D49 /* AppDelegate.swift */; };
 		77AB780C2049DC3600270D49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AB780B2049DC3600270D49 /* ViewController.swift */; };
 		77AB780F2049DC3600270D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77AB780D2049DC3600270D49 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		05AE4370E29AD073956875BB /* Pods-easy-weather-source-file.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easy-weather-source-file.debug.xcconfig"; path = "Pods/Target Support Files/Pods-easy-weather-source-file/Pods-easy-weather-source-file.debug.xcconfig"; sourceTree = "<group>"; };
 		274D33F1729AFEC826C4A6EB /* Pods_easy_weather_source_file.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easy_weather_source_file.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77640F28204A56430044EF19 /* searchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchVC.swift; sourceTree = "<group>"; };
 		77AB78062049DC3600270D49 /* easy-weather-source-file.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "easy-weather-source-file.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AB78092049DC3600270D49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77AB780B2049DC3600270D49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			children = (
 				77AB78092049DC3600270D49 /* AppDelegate.swift */,
 				77AB780B2049DC3600270D49 /* ViewController.swift */,
+				77640F28204A56430044EF19 /* searchVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77640F29204A56430044EF19 /* searchVC.swift in Sources */,
 				77AB780C2049DC3600270D49 /* ViewController.swift in Sources */,
 				77AB78122049DC3600270D49 /* easy_weather_source_file.xcdatamodeld in Sources */,
 				77AB780A2049DC3600270D49 /* AppDelegate.swift in Sources */,
