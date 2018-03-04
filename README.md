@@ -1,5 +1,6 @@
 <h1 align="center"> easy-weather</h1>
 
+![](Screen Shot 2018-03-03 at 10.41.29 PM.png)
 
 <a href="http://g.recordit.co/uu5Hzc9bB8.gif"> Gif </a>
 
