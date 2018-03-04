@@ -8,7 +8,18 @@
 
 import UIKit
 
+
+protocol textEnterDelegate {
+    func cityEnter (city: String)
+
+}
+
 class searchVC: UIViewController {
+    
+    
+    var delegate : textEnterDelegate? = nil
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,8 +32,17 @@ class searchVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet weak var textField: UITextField!
+    
+    
+    
     
     @IBAction func searchButtonPress(_ sender: UIButton) {
+        
+        let cityTextField = textField.text!
+        
+        delegate?.cityEnter(city: cityTextField)
+        
         
         dismiss(animated: true, completion: nil)
     }

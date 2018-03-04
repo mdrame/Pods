@@ -16,6 +16,8 @@
 		77AB78172049DC3600270D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77AB78152049DC3600270D49 /* LaunchScreen.storyboard */; };
 		77AB78222049DC3600270D49 /* easy_weather_source_fileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AB78212049DC3600270D49 /* easy_weather_source_fileTests.swift */; };
 		77AB782D2049DC3600270D49 /* easy_weather_source_fileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AB782C2049DC3600270D49 /* easy_weather_source_fileUITests.swift */; };
+		77C2AB6A204B6CAA0093DD68 /* weatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C2AB69204B6CAA0093DD68 /* weatherDataModel.swift */; };
+		77C2AB6C204B997A0093DD68 /* city search button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C2AB6B204B997A0093DD68 /* city search button.swift */; };
 		CDCD28B5C35EE847356BABD9 /* Pods_easy_weather_source_file.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274D33F1729AFEC826C4A6EB /* Pods_easy_weather_source_file.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,8 @@
 		77AB78282049DC3600270D49 /* easy-weather-source-fileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "easy-weather-source-fileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AB782C2049DC3600270D49 /* easy_weather_source_fileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = easy_weather_source_fileUITests.swift; sourceTree = "<group>"; };
 		77AB782E2049DC3600270D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77C2AB69204B6CAA0093DD68 /* weatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherDataModel.swift; sourceTree = "<group>"; };
+		77C2AB6B204B997A0093DD68 /* city search button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "city search button.swift"; sourceTree = "<group>"; };
 		E0DF4A353287953173A4CEA4 /* Pods-easy-weather-source-file.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easy-weather-source-file.release.xcconfig"; path = "Pods/Target Support Files/Pods-easy-weather-source-file/Pods-easy-weather-source-file.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,6 +145,7 @@
 		77AB783A2049DC7700270D49 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				77C2AB69204B6CAA0093DD68 /* weatherDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 		77AB783B2049DC8100270D49 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				77C2AB6B204B997A0093DD68 /* city search button.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -320,11 +326,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-easy-weather-source-file/Pods-easy-weather-source-file-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +380,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C2AB6C204B997A0093DD68 /* city search button.swift in Sources */,
+				77C2AB6A204B6CAA0093DD68 /* weatherDataModel.swift in Sources */,
 				77640F29204A56430044EF19 /* searchVC.swift in Sources */,
 				77AB780C2049DC3600270D49 /* ViewController.swift in Sources */,
 				77AB78122049DC3600270D49 /* easy_weather_source_file.xcdatamodeld in Sources */,
