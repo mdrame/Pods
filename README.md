@@ -1,14 +1,19 @@
-<h1 align="center"> easy-weather</h1>
+<h1 align="center"> Easy-Weather</h1>
+<p align="center"> # A weather app that tell the forecast for up to 5 days base on you current location or even better location entered </p>
+<p align="center"> <img align="center" src="Screen Shot 2018-03-03 at 11.04.19 PM.png"> </p>
+<p align="center"> <img align="center" src="Screen Shot 2018-03-03 at 10.41.29 PM.png"> </p>
+<p align="center"> <img align="center" src="Screen Shot 2018-03-03 at 10.41.49 PM.png"> </p>
+<p align="center"> <img align="center" src="Screen Shot 2018-03-03 at 10.42.23 PM.png"> </p>
+<p align="center"> <img align="center" src="Screen Shot 2018-03-03 at 10.42.38 PM.png"> </p>
+<p align="center"> <img align="center" src="Screen Shot 2018-03-03 at 10.42.50 PM.png"> </p>
 
-![](Screen Shot 2018-03-03 at 10.41.29 PM.png)
-
-<a href="http://g.recordit.co/uu5Hzc9bB8.gif"> Gif </a>
 
 
 
 
 
-A weather app that tell the forecast for up to 5 days base on you current location or even better location entered
+
+
 
 
 
