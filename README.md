@@ -1,6 +1,8 @@
 <h1 align="center"> easy-weather</h1>
 
 
+<a href="http://g.recordit.co/uu5Hzc9bB8.gif/">" Gif </a>
+
 
 
 
@@ -17,4 +19,4 @@ CoreLocation</h5>
 <h3 align="center"> API Use </h3>
 <h5 align="center"> Open Weather API </h5>
 
-<a href="http://http://g.recordit.co/uu5Hzc9bB8.gif"></a>
+
