@@ -1,7 +1,7 @@
 <h1 align="center"> easy-weather</h1>
 
 
-<a href="http://g.recordit.co/uu5Hzc9bB8.gif"/>" Gif </a>
+<a href="http://g.recordit.co/uu5Hzc9bB8.gif"> Gif </a>
 
 
 
