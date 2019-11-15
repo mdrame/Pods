@@ -1,22 +1,22 @@
-##  Easy-Weather
+###  Easy-Weather
 
-### Under Construction
+#### Under Construction
 
-<p align="center"> <img align="center" src="Screen Shot 2018-03-03 at 11.04.19 PM.png"> </p>
-<p align="center"> <img align="center" src="Screen Shot 2018-03-03 at 10.41.29 PM.png"> </p>
-<p align="center"> <img align="center" src="Screen Shot 2018-03-03 at 10.41.49 PM.png"> </p>
-<p align="center"> <img align="center" src="Screen Shot 2018-03-03 at 10.42.23 PM.png"> </p>
-<p align="center"> <img align="center" src="Screen Shot 2018-03-03 at 10.42.38 PM.png"> </p>
-<p align="center"> <img align="center" src="Screen Shot 2018-03-03 at 10.42.50 PM.png"> </p>
-<p align="center"> <img align="center" src="Screen Shot 2018-03-03 at 11.56.54 PM.png"> </p>
+ <img  src="UI/UX/1.png">
+  <img  src="UI/UX/2.png">
+   <img  src="UI/UX/3.png">
+    <img  src="UI/UX/4.png">
+     <img  src="UI/UX/5.png">
+      <img  src="UI/UX/6.png">
 
 
-### Technology
+
+#### Technology
 
 * Swift
 * Cocoapod ( Alamafire - Networking , SwiftyJSON - data handling CoreLocation)
 
-### Todo: 
+#### Todo: 
 
 * Come up with a sample UI
 * Forcast for Majors cities
