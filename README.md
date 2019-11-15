@@ -2,12 +2,12 @@
 
 #### Under Construction
 
- <img  src="UI/UX/1.png">
-  <img  src="UI/UX/2.png">
-   <img  src="UI/UX/3.png">
-    <img  src="UI/UX/4.png">
-     <img  src="UI/UX/5.png">
-      <img  src="UI/UX/6.png">
+ <img  src="UI/1.png">
+  <img  src="UI/2.png">
+   <img  src="UI/3.png">
+    <img  src="UI/4.png">
+     <img  src="UI/5.png">
+      <img  src="UI/6.png">
 
 
 
