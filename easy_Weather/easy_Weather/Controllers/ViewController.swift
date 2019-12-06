@@ -22,25 +22,49 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func callAllTextFieldFunctionHere() {
         textFieldOutlet.delegate = self
+        // TextFieldPlace Holder
+
+    }
+    
+    func callAllGoButtonFunctionHere() {
         
     }
+    
     
   /* = = = = = = = = = = = = = = = = = = = = = = */
     // textField delegate code
     /* = = = = = = = = = = = = = = = = = = = = = = */
     
+    // fun allows user to hit the return button on the keypad
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         // if user do'nt write nothing in search field make them to.
-        let textFieldModelDelegate =  TextFieldModelDelegate.userEnterTextOrNot(textField: textField)
-        
-        return textFieldModelDelegate
+        let yesUserDidEnterString =  TextFieldModelDelegate.userEnterTextOrNot(textField: textField)
+        return yesUserDidEnterString // Bool
         
     }
+    
+    
+    
+    /* = = = = = = = = = = = = = = = = = = = = = = */
+    // Go Button
+    /* = = = = = = = = = = = = = = = = = = = = = = */
+    
+    
+    
+    @IBAction func goButton(_ sender: UIButton) {
+        while  TextFieldModelDelegate.userEnterTextOrNot(textField: textFieldOutlet) {
+        textFieldOutlet.endEditing(true)
+        print(textFieldOutlet.text!) // usage of ! becasue I made sure string pass was through.
+        }
+    }
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         callAllTextFieldFunctionHere()
+        callAllGoButtonFunctionHere()
         
         // Do any additional setup after loading the view.
     }

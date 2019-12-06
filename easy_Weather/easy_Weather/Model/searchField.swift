@@ -14,15 +14,16 @@ class TextFieldModelDelegate {
     
     static func userEnterTextOrNot(textField: UITextField) -> Bool  {
         
-            switch textField.text {
-            case "":
-                //
-                return false
-            default:
-                return true
-            }
+        if textField.text == nil {
+            // pop alert or change place holder to make user to enter string, amd display warning sign on the textField leftCorner.
+            print("False")
+            return false
+        } else {
+            return true
+        }
    
     }
+    
     
     
     
