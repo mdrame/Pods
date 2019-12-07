@@ -9,21 +9,27 @@
 import Foundation
 import UIKit
 
-class TextFieldModelDelegate {
+class TextFieldModelDelegate: UITextField {
   
+    // Instance
+    var customeTextfieldClass = CustomeTextField()
     
-    static func userEnterTextOrNot(textField: UITextField) -> Bool  {
+    func userEnterTextOrNot(textField: UITextField) -> Bool  {
         
-        if textField.text == nil {
-            // pop alert or change place holder to make user to enter string, amd display warning sign on the textField leftCorner.
-            print("False")
+        let text = textField.text
+        
+        switch text?.count {
+        case 0:
+            
             return false
-        } else {
+        default:
             return true
         }
-   
     }
     
+    
+    
+ 
     
     
     

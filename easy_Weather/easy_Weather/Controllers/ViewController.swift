@@ -4,8 +4,6 @@
 //
 //  Created by Mohammed Drame on 11/14/19.
 //  Copyright © 2019 Mo Drame. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
@@ -23,7 +21,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func callAllTextFieldFunctionHere() {
         textFieldOutlet.delegate = self
         // TextFieldPlace Holder
-
+    
     }
     
     func callAllGoButtonFunctionHere() {
@@ -32,15 +30,22 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     
   /* = = = = = = = = = = = = = = = = = = = = = = */
-    // textField delegate code
+    // textField delegate code below
     /* = = = = = = = = = = = = = = = = = = = = = = */
     
     // fun allows user to hit the return button on the keypad
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        // if user do'nt write nothing in search field make them to.
-        let yesUserDidEnterString =  TextFieldModelDelegate.userEnterTextOrNot(textField: textField)
-        return yesUserDidEnterString // Bool
         
+        switch textFieldModelDelegate.userEnterTextOrNot(textField: textFieldOutlet) {
+        case true:
+             print(" User enter something ")
+              return true
+        case false:
+            print(" TextField is empty")
+            textField.placeholder = "Please Enter Something"
+            return false
+        }
+    
     }
     
     
@@ -52,11 +57,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     
     @IBAction func goButton(_ sender: UIButton) {
-        while  TextFieldModelDelegate.userEnterTextOrNot(textField: textFieldOutlet) {
-        textFieldOutlet.endEditing(true)
-        print(textFieldOutlet.text!) // usage of ! becasue I made sure string pass was through.
-        }
+       
     }
+    
     
     
     

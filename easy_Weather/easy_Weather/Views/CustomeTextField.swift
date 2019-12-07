@@ -20,9 +20,9 @@ class CustomeTextField: UITextField {
        super.init(coder: aDecorder)
        // Add custom code here
            
-           layoutStuff()
-            addLeftView()
-      
+           layerStuff()
+           addLeftView()
+            rightView()
        
        }
        
@@ -31,7 +31,7 @@ class CustomeTextField: UITextField {
        // function below
        /* = = = = = = = = = = = = = = = = = = = = = = */
        
-       private func layoutStuff() {
+       private func layerStuff() {
            
            // border
            layer.borderWidth = 2
@@ -54,19 +54,27 @@ class CustomeTextField: UITextField {
     
     
     private func addLeftView() {
-        // creating tiny view that will be added to the side to the textField
-        let textFieldLeftSideView = UIView(frame: CGRect(x: 0, y: 0, width: 20, height: self.frame.height ))
-        textFieldLeftSideView.backgroundColor = #colorLiteral(red: 0.5, green: 0.5, blue: 0.5, alpha: 0.0469025088)
-        // assing tiny view to leftside of textfield
-        self.leftView = textFieldLeftSideView
-        self.leftViewMode = .always // activating lefMode to always
+       
+      let leftView = UIView(frame: CGRect(x: 9, y: 2, width: 20, height: 20))
+        leftView.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0)
+        self.leftView = leftView
+        self.leftViewMode = .always
+        
+        
+    }
+    
+    func rightView() {
+        
+        
+            let rightView = UIView(frame: CGRect(x: 19, y: 2, width: 50, height: 40))
+              rightView.backgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 0)
+        self.rightView = rightView
+        self.rightViewMode = .always
     }
     
     
-    
-    
-    
-    func Test() {
+  
+    func test() {
         print("Testing")
     }
     
