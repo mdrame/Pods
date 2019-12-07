@@ -63,6 +63,11 @@ class CustomeTextField: UITextField {
         
     }
     
+    /* = = = = = = = = = = = = = = = = = = = = = = */
+       // function below
+       /* = = = = = = = = = = = = = = = = = = = = = = */
+    
+    
     func rightView() {
         
         
@@ -73,12 +78,27 @@ class CustomeTextField: UITextField {
     }
     
     
+    /* = = = = = = = = = = = = = = = = = = = = = = */
+       // function below
+       /* = = = = = = = = = = = = = = = = = = = = = = */
+    
+    
   
     func test() {
         print("Testing")
     }
     
     
+    
+    func userEnterTextOrNot() -> Bool {
+        
+        if self.text != "" {
+            return true
+        } else {
+            return false
+        }
+        
+    }
     
     
     

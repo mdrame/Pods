@@ -9,10 +9,10 @@ import UIKit
 class ViewController: UIViewController, UITextFieldDelegate {
     
 // Instances
-    var textFieldModelDelegate =  TextFieldModelDelegate()
+  
 
 // IBoutlets
-    @IBOutlet weak var textFieldOutlet: UITextField!
+    @IBOutlet weak var textFieldOutlet: CustomeTextField!
     @IBOutlet weak var searchButton: UIButton!
     
     
@@ -21,13 +21,54 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func callAllTextFieldFunctionHere() {
         textFieldOutlet.delegate = self
         // TextFieldPlace Holder
-    
-    }
-    
-    func callAllGoButtonFunctionHere() {
         
     }
     
+    
+    
+    /* = = = = = = = = = = = = = = = = = = = = = = */
+    // textField delegate code below
+    /* = = = = = = = = = = = = = = = = = = = = = = */
+    
+    
+    // function making sure user enter something for texfield should return
+    func userDidEnterString() -> Bool {
+        switch textFieldOutlet.userEnterTextOrNot() {
+                   case true:
+                        print(" User enter text ")
+                        textFieldOutlet.text = ""
+                        textFieldOutlet.endEditing(self.userDidEnterString()) // answer of this function is base on func userDidEnterstring
+                         return true
+                   case false:
+                       print(" TextField is empty")
+                       textFieldOutlet.placeholder = "Please Enter Something"
+                       return false
+                   }
+    }
+    
+    func textFieldTextVerificationUIButton() {
+        switch textFieldOutlet.userEnterTextOrNot() {
+        case true:
+             print(" User enter something ")
+             textFieldOutlet.text = ""
+              textFieldOutlet.endEditing(userDidEnterString()) // answer of this function is base on func userDidEnterstring
+        case false:
+            print(" TextField is empty")
+            textFieldOutlet.placeholder = "Please Enter Something"
+        }
+    }
+    
+    
+    /* = = = = = = = = = = = = = = = = = = = = = = */
+    // textField delegate code below
+    /* = = = = = = = = = = = = = = = = = = = = = = */
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        // do something when the user is not editin any more.
+    }
+    
+    
+ 
     
   /* = = = = = = = = = = = = = = = = = = = = = = */
     // textField delegate code below
@@ -35,17 +76,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     // fun allows user to hit the return button on the keypad
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        
-        switch textFieldModelDelegate.userEnterTextOrNot(textField: textFieldOutlet) {
-        case true:
-             print(" User enter something ")
-              return true
-        case false:
-            print(" TextField is empty")
-            textField.placeholder = "Please Enter Something"
-            return false
-        }
-    
+        userDidEnterString()
     }
     
     
@@ -57,8 +88,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     
     @IBAction func goButton(_ sender: UIButton) {
-       
+        textFieldOutlet.endEditing(userDidEnterString()) 
+        textFieldTextVerificationUIButton()
     }
+    
+    
     
     
     
@@ -67,7 +101,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         
         callAllTextFieldFunctionHere()
-        callAllGoButtonFunctionHere()
+       
+        
+        
         
         // Do any additional setup after loading the view.
     }

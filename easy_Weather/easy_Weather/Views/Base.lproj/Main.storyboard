@@ -39,7 +39,7 @@
                     </view>
                     <connections>
                         <outlet property="searchButton" destination="bg5-9d-QiH" id="fEf-gB-tvk"/>
-                        <outlet property="textFieldOutlet" destination="RDA-Hk-HYE" id="AW2-0y-g5N"/>
+                        <outlet property="textFieldOutlet" destination="RDA-Hk-HYE" id="2r0-0o-Nzq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
