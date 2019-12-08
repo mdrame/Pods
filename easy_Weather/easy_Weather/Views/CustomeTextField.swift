@@ -71,7 +71,7 @@ class CustomeTextField: UITextField {
     func rightView() {
         
         
-            let rightView = UIView(frame: CGRect(x: 19, y: 2, width: 50, height: 40))
+        let rightView = UIView(frame: CGRect(x: 19, y: 2, width: 50, height: 40))
               rightView.backgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 0)
         self.rightView = rightView
         self.rightViewMode = .always

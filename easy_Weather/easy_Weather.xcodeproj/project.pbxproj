@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7702C7D4239A034B0081F7BC /* CustomeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702C7D3239A034B0081F7BC /* CustomeTextField.swift */; };
 		7702C7DB239A21250081F7BC /* CustomeGoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702C7DA239A21250081F7BC /* CustomeGoButton.swift */; };
+		770C3EA7239CA2C7008A066D /* ApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C3EA6239CA2C7008A066D /* ApiModel.swift */; };
 		77D9AB8E237E7A8700CBB204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9AB8D237E7A8700CBB204 /* AppDelegate.swift */; };
 		77D9AB90237E7A8700CBB204 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9AB8F237E7A8700CBB204 /* SceneDelegate.swift */; };
 		77D9AB92237E7A8700CBB204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9AB91237E7A8700CBB204 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		7702C7D3239A034B0081F7BC /* CustomeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTextField.swift; sourceTree = "<group>"; };
 		7702C7DA239A21250081F7BC /* CustomeGoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeGoButton.swift; sourceTree = "<group>"; };
+		770C3EA6239CA2C7008A066D /* ApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModel.swift; sourceTree = "<group>"; };
 		77D9AB8A237E7A8700CBB204 /* easy_Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easy_Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D9AB8D237E7A8700CBB204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77D9AB8F237E7A8700CBB204 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		7702C7D7239A137B0081F7BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				770C3EA6239CA2C7008A066D /* ApiModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				77D9AB92237E7A8700CBB204 /* ViewController.swift in Sources */,
 				77D9AB8E237E7A8700CBB204 /* AppDelegate.swift in Sources */,
 				7702C7D4239A034B0081F7BC /* CustomeTextField.swift in Sources */,
+				770C3EA7239CA2C7008A066D /* ApiModel.swift in Sources */,
 				77D9AB90237E7A8700CBB204 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

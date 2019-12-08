@@ -9,6 +9,7 @@ import UIKit
 class ViewController: UIViewController, UITextFieldDelegate {
     
 // Instances
+    var api = Model()
   
 
 // IBoutlets
@@ -34,8 +35,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
     // function making sure user enter something for texfield should return
     func userDidEnterString() -> Bool {
         if textFieldOutlet.userEnterTextOrNot() == true{
+            let searchQuery = api.userEnter(city: textFieldOutlet.text!)
+            api.performRequest(urlString: searchQuery)
             textFieldOutlet.endEditing(true)
-            print(textFieldOutlet.text)
+            print(textFieldOutlet.text!)
             return true
         } else {
             print("Please Enter something")
@@ -45,6 +48,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func textFieldTextVerificationUIButton() {
         if textFieldOutlet.userEnterTextOrNot() == true{
+            let searchQuery = api.userEnter(city: textFieldOutlet.text!)
+            api.performRequest(urlString: searchQuery)
             textFieldOutlet.endEditing(true)
                } else {
                    print("Please Enter something")
@@ -86,6 +91,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func goButton(_ sender: UIButton) {
         textFieldOutlet.endEditing(userDidEnterString()) 
         textFieldTextVerificationUIButton()
+        
     }
     
     
