@@ -38,7 +38,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="searchButton" destination="bg5-9d-QiH" id="fEf-gB-tvk"/>
+                        <outlet property="searchButton" destination="bg5-9d-QiH" id="Chw-tp-mkV"/>
                         <outlet property="textFieldOutlet" destination="RDA-Hk-HYE" id="2r0-0o-Nzq"/>
                     </connections>
                 </viewController>

@@ -33,29 +33,23 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     // function making sure user enter something for texfield should return
     func userDidEnterString() -> Bool {
-        switch textFieldOutlet.userEnterTextOrNot() {
-                   case true:
-                        print(" User enter text ")
-                        textFieldOutlet.text = ""
-                        textFieldOutlet.endEditing(self.userDidEnterString()) // answer of this function is base on func userDidEnterstring
-                         return true
-                   case false:
-                       print(" TextField is empty")
-                       textFieldOutlet.placeholder = "Please Enter Something"
-                       return false
-                   }
+        if textFieldOutlet.userEnterTextOrNot() == true{
+            textFieldOutlet.endEditing(true)
+            print(textFieldOutlet.text)
+            return true
+        } else {
+            print("Please Enter something")
+            return false
+        }
     }
     
     func textFieldTextVerificationUIButton() {
-        switch textFieldOutlet.userEnterTextOrNot() {
-        case true:
-             print(" User enter something ")
-             textFieldOutlet.text = ""
-              textFieldOutlet.endEditing(userDidEnterString()) // answer of this function is base on func userDidEnterstring
-        case false:
-            print(" TextField is empty")
-            textFieldOutlet.placeholder = "Please Enter Something"
-        }
+        if textFieldOutlet.userEnterTextOrNot() == true{
+            textFieldOutlet.endEditing(true)
+               } else {
+                   print("Please Enter something")
+            textFieldOutlet.endEditing(false)
+               }
     }
     
     
@@ -65,6 +59,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func textFieldDidEndEditing(_ textField: UITextField) {
         // do something when the user is not editin any more.
+        let searchValue = textField.text
+    
     }
     
     

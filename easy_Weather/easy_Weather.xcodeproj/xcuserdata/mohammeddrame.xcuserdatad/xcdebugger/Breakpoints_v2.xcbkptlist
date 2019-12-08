@@ -7,109 +7,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7E88C408-3026-426F-97B3-BE276541E19C"
+            uuid = "9D8129D4-8DC1-44B0-AB2F-05BF2DE00258"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "easy_Weather/Controllers/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "ViewController"
             landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "7E88C408-3026-426F-97B3-BE276541E19C - c0f20387d0d69702"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "easy_Weather.ViewController.searchButton.getter : Swift.Optional&lt;__C.UIButton&gt;"
-                  moduleName = "easy_Weather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohammeddrame/Documents/dev/swift/personal/easy-weather/easy_Weather/easy_Weather/Controllers/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  uuid = "7E88C408-3026-426F-97B3-BE276541E19C - c813d029a59c70e"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "easy_Weather.ViewController.searchButton.setter : Swift.Optional&lt;__C.UIButton&gt;"
-                  moduleName = "easy_Weather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohammeddrame/Documents/dev/swift/personal/easy-weather/easy_Weather/easy_Weather/Controllers/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "104">
-               </Location>
-               <Location
-                  uuid = "7E88C408-3026-426F-97B3-BE276541E19C - 770cf1ded7feb301"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "easy_Weather.ViewController.searchButton.modify : Swift.Optional&lt;__C.UIButton&gt;"
-                  moduleName = "easy_Weather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohammeddrame/Documents/dev/swift/personal/easy-weather/easy_Weather/easy_Weather/Controllers/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "67">
-               </Location>
-               <Location
-                  uuid = "7E88C408-3026-426F-97B3-BE276541E19C - 41bdbd7a85abd6d8"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "easy_Weather.ViewController.searchButton.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "easy_Weather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohammeddrame/Documents/dev/swift/personal/easy-weather/easy_Weather/easy_Weather/Controllers/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "76">
-               </Location>
-               <Location
-                  uuid = "7E88C408-3026-426F-97B3-BE276541E19C - b42c3a6850314883"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "easy_Weather.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; easy_Weather.ViewController"
-                  moduleName = "easy_Weather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohammeddrame/Documents/dev/swift/personal/easy-weather/easy_Weather/easy_Weather/Controllers/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "401">
-               </Location>
-               <Location
-                  uuid = "7E88C408-3026-426F-97B3-BE276541E19C - dda49defc12f836d"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "easy_Weather.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;easy_Weather.ViewController&gt;"
-                  moduleName = "easy_Weather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohammeddrame/Documents/dev/swift/personal/easy-weather/easy_Weather/easy_Weather/Controllers/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "326">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
