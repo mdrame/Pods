@@ -11,46 +11,52 @@ import Foundation
 struct Model {
     
     // properties
-    let openWeatherUrl = "api.openweathermap.org/data/2.5/weather?"
-    let apiKey = "8b8286cb872c5238a1941724160e04b9"
+    let openWeatherUrl = "https//www.api.openweathermap.org/data/2.5/weather?"
+    let apiKey = "6b7fda170a093cef98d8ee2fb042472b"
     
     
     // methods
     // String concatination // adding requre api paramenter through function.
-    func userEnter(city textField: String) -> String { //
+    func get(city textField: String) { //
         
-        let urlString = "\(openWeatherUrl)q=\(textField)&key=\(apiKey)"
+        let urlString = "\(openWeatherUrl)q=\(textField)&appid=\(apiKey)"
         print("Api Key: \(urlString)")
-        return urlString
+        performAPIRequest(test: textField)
     }
     
     // Making API Call
-    func performRequest(urlString: String) {
-        // URL() is a struct that verify a url string is correct by lokey callign with it us knowing
-        if let url = URL(string: urlString) {
-                // URL Makes the networking / connection
-            let session = URLSession(configuration: .default)
-//            let task = session.dataTask(with: url, completionHandler: handle(data: response: error: ))
-//            task.resume()
-        }
+    func performAPIRequest(test string: String) {
         
-    }
-    
-    
-    func handle(data: Data?, response: URLResponse, error: Error?) {
-        if error != nil {
-            print("We got a problem here")
-            print(error!)
+        if let url = URL(string: string) { // THIS HERE CHECK IF THE GIVEN URL IS A STRING
+           let session = URLSession(configuration: .default) // Starting the engine that process the url and go get the API call
             
-            return
-        }
+            let task = session.dataTask(with: url, completionHandler: sessionTaskCompleted(data:response:error:))
+            //
+            task.resume()
         
-        
-        if let successFullData = data {
-            let dataString = String(data: successFullData, encoding: .utf8)
-            print(dataString ?? "404 Error: Connection Not Successful")
-        }
     }
+    }
+    
+    func sessionTaskCompleted(data: Data?, response: URLResponse?, error: Error?) {
+        // error
+        if error != nil {
+            print(" ERROR BELOW ENCOUNTER ")
+            print(error!)
+            return // return terminate the fun
+        }
+        
+        if let safeData = data {
+            let dataConvertion = String(data: safeData, encoding: .utf8)
+            print("DATA")
+            print(dataConvertion)
+        }
+        
+        
+        
+    }
+    
+    
+ 
     
 
     

@@ -35,10 +35,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     // function making sure user enter something for texfield should return
     func userDidEnterString() -> Bool {
         if textFieldOutlet.userEnterTextOrNot() == true{
-            let searchQuery = api.userEnter(city: textFieldOutlet.text!)
-            api.performRequest(urlString: searchQuery)
             textFieldOutlet.endEditing(true)
-            print(textFieldOutlet.text!)
+            api.get(city: textFieldOutlet.text ?? "London") // making API Call
             return true
         } else {
             print("Please Enter something")
@@ -48,11 +46,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func textFieldTextVerificationUIButton() {
         if textFieldOutlet.userEnterTextOrNot() == true{
-            let searchQuery = api.userEnter(city: textFieldOutlet.text!)
-            api.performRequest(urlString: searchQuery)
             textFieldOutlet.endEditing(true)
+            api.get(city: textFieldOutlet.text ?? "London")
                } else {
-                   print("Please Enter something")
+                   print("Please Enter something 2")
             textFieldOutlet.endEditing(false)
                }
     }
@@ -61,12 +58,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
     /* = = = = = = = = = = = = = = = = = = = = = = */
     // textField delegate code below
     /* = = = = = = = = = = = = = = = = = = = = = = */
-    
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        // do something when the user is not editin any more.
-        let searchValue = textField.text
-    
-    }
+//    
+//    func textFieldDidEndEditing(_ textField: UITextField) {
+//        // textField only ends editing our erro handling code succecced.
+//        if let city = textField.text {
+//            api.get(city: city)
+//        }
+//        
+//        textFieldOutlet.text = ""
+//    }
     
     
  
@@ -82,6 +82,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     
     
+    func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
+        if textFieldOutlet.text != "" {
+            return true
+        }else {
+            return false
+        }
+        
+    }
+    
+    
+    
     /* = = = = = = = = = = = = = = = = = = = = = = */
     // Go Button
     /* = = = = = = = = = = = = = = = = = = = = = = */
@@ -91,7 +102,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func goButton(_ sender: UIButton) {
         textFieldOutlet.endEditing(userDidEnterString()) 
         textFieldTextVerificationUIButton()
-        
     }
     
     
