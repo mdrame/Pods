@@ -47,7 +47,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func textFieldTextVerificationUIButton() {
         if textFieldOutlet.userEnterTextOrNot() == true{
             textFieldOutlet.endEditing(true)
-            api.get(city: textFieldOutlet.text ?? "London")
+            
                } else {
                    print("Please Enter something 2")
             textFieldOutlet.endEditing(false)
@@ -102,6 +102,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func goButton(_ sender: UIButton) {
         textFieldOutlet.endEditing(userDidEnterString()) 
         textFieldTextVerificationUIButton()
+        api.get(city: textFieldOutlet.text ?? "London")
     }
     
     

@@ -11,17 +11,17 @@ import Foundation
 struct Model {
     
     // properties
-    let openWeatherUrl = "https//www.api.openweathermap.org/data/2.5/weather?"
-    let apiKey = "6b7fda170a093cef98d8ee2fb042472b"
+    let openWeatherUrl = "https://api.openweathermap.org/data/2.5/weather?appid=6b7fda170a093cef98d8ee2fb042472b&units=metric"
+
     
     
     // methods
     // String concatination // adding requre api paramenter through function.
     func get(city textField: String) { //
         
-        let urlString = "\(openWeatherUrl)q=\(textField)&appid=\(apiKey)"
-        print("Api Key: \(urlString)")
-        performAPIRequest(test: textField)
+        let urlString = "\(openWeatherUrl)&q=\(textField)"
+//        print("Full URL String: \(urlString)")
+        performAPIRequest(test: urlString)
     }
     
     // Making API Call
