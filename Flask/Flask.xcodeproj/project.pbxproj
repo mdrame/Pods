@@ -7,33 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7702C7D4239A034B0081F7BC /* CustomeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702C7D3239A034B0081F7BC /* CustomeTextField.swift */; };
-		7702C7DB239A21250081F7BC /* CustomeGoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702C7DA239A21250081F7BC /* CustomeGoButton.swift */; };
-		770C3EA7239CA2C7008A066D /* ApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770C3EA6239CA2C7008A066D /* ApiModel.swift */; };
-		77D9AB8E237E7A8700CBB204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9AB8D237E7A8700CBB204 /* AppDelegate.swift */; };
-		77D9AB90237E7A8700CBB204 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9AB8F237E7A8700CBB204 /* SceneDelegate.swift */; };
-		77D9AB92237E7A8700CBB204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9AB91237E7A8700CBB204 /* ViewController.swift */; };
-		77D9AB95237E7A8700CBB204 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D9AB93237E7A8700CBB204 /* Main.storyboard */; };
-		77D9AB97237E7A8900CBB204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D9AB96237E7A8900CBB204 /* Assets.xcassets */; };
-		77D9AB9A237E7A8900CBB204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D9AB98237E7A8900CBB204 /* LaunchScreen.storyboard */; };
+		775E308A23AB476200624B79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E308923AB476200624B79 /* AppDelegate.swift */; };
+		775E308C23AB476200624B79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E308B23AB476200624B79 /* SceneDelegate.swift */; };
+		775E308E23AB476200624B79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E308D23AB476200624B79 /* ViewController.swift */; };
+		775E309123AB476200624B79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775E308F23AB476200624B79 /* Main.storyboard */; };
+		775E309323AB476300624B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775E309223AB476300624B79 /* Assets.xcassets */; };
+		775E309623AB476300624B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775E309423AB476300624B79 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7702C7D3239A034B0081F7BC /* CustomeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTextField.swift; sourceTree = "<group>"; };
-		7702C7DA239A21250081F7BC /* CustomeGoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeGoButton.swift; sourceTree = "<group>"; };
-		770C3EA6239CA2C7008A066D /* ApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModel.swift; sourceTree = "<group>"; };
-		77D9AB8A237E7A8700CBB204 /* easy_Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easy_Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		77D9AB8D237E7A8700CBB204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77D9AB8F237E7A8700CBB204 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		77D9AB91237E7A8700CBB204 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		77D9AB94237E7A8700CBB204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		77D9AB96237E7A8900CBB204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		77D9AB99237E7A8900CBB204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		77D9AB9B237E7A8900CBB204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775E308623AB476200624B79 /* Flask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		775E308923AB476200624B79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		775E308B23AB476200624B79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		775E308D23AB476200624B79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		775E309023AB476200624B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		775E309223AB476300624B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		775E309523AB476300624B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		775E309723AB476300624B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		77D9AB87237E7A8700CBB204 /* Frameworks */ = {
+		775E308323AB476200624B79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,99 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7702C7D5239A13670081F7BC /* Views */ = {
+		775E307D23AB476200624B79 = {
 			isa = PBXGroup;
 			children = (
-				7702C7D3239A034B0081F7BC /* CustomeTextField.swift */,
-				7702C7DA239A21250081F7BC /* CustomeGoButton.swift */,
-				77D9AB93237E7A8700CBB204 /* Main.storyboard */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		7702C7D6239A136D0081F7BC /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				77D9AB91237E7A8700CBB204 /* ViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		7702C7D7239A137B0081F7BC /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				770C3EA6239CA2C7008A066D /* ApiModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		77D9AB81237E7A8700CBB204 = {
-			isa = PBXGroup;
-			children = (
-				77D9AB8C237E7A8700CBB204 /* easy_Weather */,
-				77D9AB8B237E7A8700CBB204 /* Products */,
+				775E308823AB476200624B79 /* Flask */,
+				775E308723AB476200624B79 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		77D9AB8B237E7A8700CBB204 /* Products */ = {
+		775E308723AB476200624B79 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				77D9AB8A237E7A8700CBB204 /* easy_Weather.app */,
+				775E308623AB476200624B79 /* Flask.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		77D9AB8C237E7A8700CBB204 /* easy_Weather */ = {
+		775E308823AB476200624B79 /* Flask */ = {
 			isa = PBXGroup;
 			children = (
-				77D9AB8D237E7A8700CBB204 /* AppDelegate.swift */,
-				77D9AB8F237E7A8700CBB204 /* SceneDelegate.swift */,
-				7702C7D7239A137B0081F7BC /* Model */,
-				7702C7D5239A13670081F7BC /* Views */,
-				7702C7D6239A136D0081F7BC /* Controllers */,
-				77D9AB96237E7A8900CBB204 /* Assets.xcassets */,
-				77D9AB98237E7A8900CBB204 /* LaunchScreen.storyboard */,
-				77D9AB9B237E7A8900CBB204 /* Info.plist */,
+				775E308923AB476200624B79 /* AppDelegate.swift */,
+				775E308B23AB476200624B79 /* SceneDelegate.swift */,
+				775E308D23AB476200624B79 /* ViewController.swift */,
+				775E308F23AB476200624B79 /* Main.storyboard */,
+				775E309223AB476300624B79 /* Assets.xcassets */,
+				775E309423AB476300624B79 /* LaunchScreen.storyboard */,
+				775E309723AB476300624B79 /* Info.plist */,
 			);
-			path = easy_Weather;
+			path = Flask;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		77D9AB89237E7A8700CBB204 /* easy_Weather */ = {
+		775E308523AB476200624B79 /* Flask */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77D9AB9E237E7A8900CBB204 /* Build configuration list for PBXNativeTarget "easy_Weather" */;
+			buildConfigurationList = 775E309A23AB476300624B79 /* Build configuration list for PBXNativeTarget "Flask" */;
 			buildPhases = (
-				77D9AB86237E7A8700CBB204 /* Sources */,
-				77D9AB87237E7A8700CBB204 /* Frameworks */,
-				77D9AB88237E7A8700CBB204 /* Resources */,
+				775E308223AB476200624B79 /* Sources */,
+				775E308323AB476200624B79 /* Frameworks */,
+				775E308423AB476200624B79 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = easy_Weather;
-			productName = easy_Weather;
-			productReference = 77D9AB8A237E7A8700CBB204 /* easy_Weather.app */;
+			name = Flask;
+			productName = Flask;
+			productReference = 775E308623AB476200624B79 /* Flask.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		77D9AB82237E7A8700CBB204 /* Project object */ = {
+		775E307E23AB476200624B79 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Mo Drame";
 				TargetAttributes = {
-					77D9AB89237E7A8700CBB204 = {
-						CreatedOnToolsVersion = 11.2.1;
+					775E308523AB476200624B79 = {
+						CreatedOnToolsVersion = 11.3;
 					};
 				};
 			};
-			buildConfigurationList = 77D9AB85237E7A8700CBB204 /* Build configuration list for PBXProject "easy_Weather" */;
+			buildConfigurationList = 775E308123AB476200624B79 /* Build configuration list for PBXProject "Flask" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,58 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 77D9AB81237E7A8700CBB204;
-			productRefGroup = 77D9AB8B237E7A8700CBB204 /* Products */;
+			mainGroup = 775E307D23AB476200624B79;
+			productRefGroup = 775E308723AB476200624B79 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				77D9AB89237E7A8700CBB204 /* easy_Weather */,
+				775E308523AB476200624B79 /* Flask */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		77D9AB88237E7A8700CBB204 /* Resources */ = {
+		775E308423AB476200624B79 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77D9AB9A237E7A8900CBB204 /* LaunchScreen.storyboard in Resources */,
-				77D9AB97237E7A8900CBB204 /* Assets.xcassets in Resources */,
-				77D9AB95237E7A8700CBB204 /* Main.storyboard in Resources */,
+				775E309623AB476300624B79 /* LaunchScreen.storyboard in Resources */,
+				775E309323AB476300624B79 /* Assets.xcassets in Resources */,
+				775E309123AB476200624B79 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		77D9AB86237E7A8700CBB204 /* Sources */ = {
+		775E308223AB476200624B79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7702C7DB239A21250081F7BC /* CustomeGoButton.swift in Sources */,
-				77D9AB92237E7A8700CBB204 /* ViewController.swift in Sources */,
-				77D9AB8E237E7A8700CBB204 /* AppDelegate.swift in Sources */,
-				7702C7D4239A034B0081F7BC /* CustomeTextField.swift in Sources */,
-				770C3EA7239CA2C7008A066D /* ApiModel.swift in Sources */,
-				77D9AB90237E7A8700CBB204 /* SceneDelegate.swift in Sources */,
+				775E308E23AB476200624B79 /* ViewController.swift in Sources */,
+				775E308A23AB476200624B79 /* AppDelegate.swift in Sources */,
+				775E308C23AB476200624B79 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		77D9AB93237E7A8700CBB204 /* Main.storyboard */ = {
+		775E308F23AB476200624B79 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				77D9AB94237E7A8700CBB204 /* Base */,
+				775E309023AB476200624B79 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		77D9AB98237E7A8900CBB204 /* LaunchScreen.storyboard */ = {
+		775E309423AB476300624B79 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				77D9AB99237E7A8900CBB204 /* Base */,
+				775E309523AB476300624B79 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -202,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		77D9AB9C237E7A8900CBB204 /* Debug */ = {
+		775E309823AB476300624B79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		77D9AB9D237E7A8900CBB204 /* Release */ = {
+		775E309923AB476300624B79 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,36 +280,36 @@
 			};
 			name = Release;
 		};
-		77D9AB9F237E7A8900CBB204 /* Debug */ = {
+		775E309B23AB476300624B79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6AY5G84ET7;
-				INFOPLIST_FILE = easy_Weather/Info.plist;
+				INFOPLIST_FILE = Flask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.modrame.herokuapp.easy-Weather";
+				PRODUCT_BUNDLE_IDENTIFIER = com.modrame.herokuapp.Flask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		77D9ABA0237E7A8900CBB204 /* Release */ = {
+		775E309C23AB476300624B79 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6AY5G84ET7;
-				INFOPLIST_FILE = easy_Weather/Info.plist;
+				INFOPLIST_FILE = Flask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.modrame.herokuapp.easy-Weather";
+				PRODUCT_BUNDLE_IDENTIFIER = com.modrame.herokuapp.Flask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -355,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		77D9AB85237E7A8700CBB204 /* Build configuration list for PBXProject "easy_Weather" */ = {
+		775E308123AB476200624B79 /* Build configuration list for PBXProject "Flask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77D9AB9C237E7A8900CBB204 /* Debug */,
-				77D9AB9D237E7A8900CBB204 /* Release */,
+				775E309823AB476300624B79 /* Debug */,
+				775E309923AB476300624B79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77D9AB9E237E7A8900CBB204 /* Build configuration list for PBXNativeTarget "easy_Weather" */ = {
+		775E309A23AB476300624B79 /* Build configuration list for PBXNativeTarget "Flask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77D9AB9F237E7A8900CBB204 /* Debug */,
-				77D9ABA0237E7A8900CBB204 /* Release */,
+				775E309B23AB476300624B79 /* Debug */,
+				775E309C23AB476300624B79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 77D9AB82237E7A8700CBB204 /* Project object */;
+	rootObject = 775E307E23AB476200624B79 /* Project object */;
 }
