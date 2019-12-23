@@ -48,7 +48,7 @@
         <!--DetailVC-->
         <scene sceneID="P0i-Og-hxt">
             <objects>
-                <viewController id="EZg-oi-GDX" customClass="DetailVC" customModule="Flask" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="screen" id="EZg-oi-GDX" customClass="DetailVC" customModule="Flask" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c2I-d9-HHz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
