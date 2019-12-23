@@ -8,31 +8,55 @@
 
 import UIKit
 
-class HomeVC: UITableViewController {
+class HomeVC: UIViewController, Data {
+ 
+    
+    
+    // Global Variables
+    
+    var data : String?
+    
+    func saveData(text: String) {
+        data = text
+        if let ava = data {
+                 label.text = ava
+                 print(ava)
+             }
+     }
+    
+    @IBOutlet weak var label: UILabel!
+    
+    
+    @IBAction func add(_ sender: Any) {
+        performSegue(withIdentifier: "toDeal", sender: self)
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
-    }
-
-    // MARK: - Table view data source
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 5
-    }
-
+        
+     
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = "Test"
-        return cell
     }
+
+
+//    // MARK: - Table view data source
+//
+//    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        // #warning Incomplete implementation, return the number of rows
+//        return list.count
+//    }
+//
+//
+//    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+//        cell.textLabel?.text = list[indexPath.row].data
+//        return cell
+//    }
+//
+//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        performSegue(withIdentifier: "toDeal", sender: self)
+//    }
     
 
     /*
