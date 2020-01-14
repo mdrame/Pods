@@ -3,7 +3,6 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -31,49 +30,10 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="V3A-0u-cEH"/>
-                    <connections>
-                        <segue destination="LS1-MG-GjI" kind="show" identifier="toDetail" id="Hla-8a-s80"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eV2-Np-7kf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-436.23188405797106" y="85.714285714285708"/>
-        </scene>
-        <!--Add ToDo-->
-        <scene sceneID="RXD-94-rCo">
-            <objects>
-                <viewController storyboardIdentifier="detail" id="LS1-MG-GjI" customClass="DetailVC" customModule="Flask" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="P77-aQ-TwW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G6X-hv-Q8S">
-                                <rect key="frame" x="52" y="178" width="310" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Todo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVx-zk-s3x">
-                                <rect key="frame" x="186" y="237" width="39" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="H5Z-pI-i6B"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Add ToDo" leftItemsSupplementBackButton="YES" id="ENJ-c1-v1B">
-                        <barButtonItem key="backBarButtonItem" title="LIST" id="qnA-QL-tJd"/>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="textField" destination="G6X-hv-Q8S" id="dCS-ou-5VT"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="b9D-G3-TkI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="413.04347826086962" y="85.714285714285708"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mAh-dC-VKg">

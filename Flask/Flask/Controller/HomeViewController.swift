@@ -17,7 +17,7 @@ class HomeViewController: UITableViewController{
     
     
     // - - - - - - - - - -  Vars - - - - - - - -  //
-    
+    var dataBase = [String]()
     
     
     
@@ -30,13 +30,13 @@ class HomeViewController: UITableViewController{
     // - - - - - - - - - -  Delegates - - - - - - - -  //
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return dataBase.count
     }
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = " TEST "
+        cell.textLabel?.text = dataBase[indexPath.row]
         return cell
     }
     
@@ -53,7 +53,19 @@ class HomeViewController: UITableViewController{
     }
     
     @objc func leftButtonHnadler() {
-        performSegue(withIdentifier: "toDetail", sender: self)
+        // Create UIAlert
+        let alertController = UIAlertController(title: "Add To List", message: "Type wht you want to add to your todo list", preferredStyle: .alert)
+        alertController.addTextField { (textfiedm: UITextField!) in
+            textfiedm.placeholder = "Enter todo list"
+            
+        }
+        let action = UIAlertAction(title: " S A V E ", style: .default) { (action: UIAlertAction) in
+            let words = alertController.textFields![0]
+            self.dataBase.append(words.text!)
+        }
+        alertController.addAction(action)
+        self.present(alertController, animated: true, completion: nil)
+        self.tableView.reloadData()
     }
     
     
@@ -61,11 +73,13 @@ class HomeViewController: UITableViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+      
         setUI()
         // Do any additional setup after loading the view.
     }
+
     
+ 
 
   
 

@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7700772B23C2AD02002BC8C5 /* ComputedProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7700772A23C2AD02002BC8C5 /* ComputedProperty.swift */; };
 		77344E2D23B1911400D47482 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77344E2C23B1911400D47482 /* HomeViewController.swift */; };
-		77344E2F23B1919B00D47482 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77344E2E23B1919B00D47482 /* DetailVC.swift */; };
-		77344E3423B1923700D47482 /* ReuseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77344E3323B1923700D47482 /* ReuseCell.swift */; };
 		775E308A23AB476200624B79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E308923AB476200624B79 /* AppDelegate.swift */; };
 		775E308C23AB476200624B79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E308B23AB476200624B79 /* SceneDelegate.swift */; };
 		775E309123AB476200624B79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775E308F23AB476200624B79 /* Main.storyboard */; };
@@ -18,9 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7700772A23C2AD02002BC8C5 /* ComputedProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputedProperty.swift; sourceTree = "<group>"; };
 		77344E2C23B1911400D47482 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		77344E2E23B1919B00D47482 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
-		77344E3323B1923700D47482 /* ReuseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseCell.swift; sourceTree = "<group>"; };
 		775E308623AB476200624B79 /* Flask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		775E308923AB476200624B79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		775E308B23AB476200624B79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,7 +53,7 @@
 		77344E3023B1920200D47482 /* CustomeCell */ = {
 			isa = PBXGroup;
 			children = (
-				77344E3323B1923700D47482 /* ReuseCell.swift */,
+				7700772A23C2AD02002BC8C5 /* ComputedProperty.swift */,
 			);
 			path = CustomeCell;
 			sourceTree = "<group>";
@@ -73,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				77344E2C23B1911400D47482 /* HomeViewController.swift */,
-				77344E2E23B1919B00D47482 /* DetailVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -177,10 +174,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				775E308A23AB476200624B79 /* AppDelegate.swift in Sources */,
-				77344E2F23B1919B00D47482 /* DetailVC.swift in Sources */,
 				775E308C23AB476200624B79 /* SceneDelegate.swift in Sources */,
-				77344E3423B1923700D47482 /* ReuseCell.swift in Sources */,
 				77344E2D23B1911400D47482 /* HomeViewController.swift in Sources */,
+				7700772B23C2AD02002BC8C5 /* ComputedProperty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
